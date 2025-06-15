@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: montserrat, sans-serif;
+}
+/*Header start*/
+li, a, button {
+  font-family: montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+}
+header, footer{
+  display: flex;
+  align-items: center;
+  padding: 30px 5%;
+  height: 90px;
+  border-bottom: 3px solid #EEF0F3;
+}
+.logo {
+  cursor: pointer;
+  width:150px;
+  margin-right: auto;
+}
+.navbar {
+  list-style: none; 
+}
+.navbar li {
+  display: inline-block;
+  padding: 0% 15px;
+  
+}
+.navbar li a {
+  transform: all 0.7s ease;
+}
+.navbar li a:hover {
+  color: #0C66FF;
+ /*letter-spacing: 0.8px;*/
+}
+/*Header end*/
+/*Hero section start*/
+
+.hero {
+  padding: 80px 25%;
+  margin: 0 auto;
+  
+}
+.cont1 {
+  font-family: montserrat, sans-serif;
+  text-align: center;
+  margin-bottom: 25px;
+
+}
+.cont1 h1 {
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 80px;
+  color: #0F2656;
+
+}
+p {
+  font-size: 16px;
+  font-weight: 400  
+
+}
+.cont2 {
+  width: 80%;
+  margin: 0% auto;
+  align-items: center;
+}
+.cont2 img {
+  width: 600px;
+}
+/*Hero section end*/
+/* Sec1 Start */
+.sec1 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.leftcont {
+  width: 45%;
+  text-align: right;
+}
+.leftcont h2 {
+  
+  font-size: 55px;
+  color: #F15767;
+}
+
+.rightcont {
+  width: 55%;
+  text-align: left;
+}
+.rightcont h1 {
+  font-size: 52px;
+  color: #0F2656;
+}
+/* Sec1 end */
+/* Sec2 Start */
+
+.sec2 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 0px 10%;
+  
+}
+.card {
+  width: 30%;
+  overflow: hidden;
+  margin: 20px;
+}
+.imgbox img {
+  width: 100%;
+  height: auto;
+}
+.contentbox {
+  padding: 30px 25px 80px 25px;
+}
+.contentbox h3 {
+  font-size: 22px;
+  color: #0F2656;
+  margin-bottom: 10px;
+}
+.contentbox p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.item1 {
+  background-color: #FFF7E8;
+}
+.item2 {
+  background-color: #EBF9F4;
+}
+
+.item3 {
+  background-color: #FDEBED;
+}
+
+
+/* Sec2 end */
+/* Footer Start */
+footer {
+  text-align: center;
+  justify-content: center;
+  background-color: #008AFF;
+  margin-top: 80px;
+
+}
+footer p {
+  color: #7FC1FF;
+  font-size: 16px;
+}
+.copyright {
+  letter-spacing: 5PX; 
+  color: #ffffff;"
+}
+/* Footer end */
